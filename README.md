@@ -23,3 +23,5 @@ This code is even pre-alpha.
  - WASAPI (Windows)
  - ASIO (Windows)
  - HTTP Server API (Portable)
+ - Change of Taglib ...
+ - Native DSD
