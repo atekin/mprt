@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="player_control_icons">
+    <file>icons/adddirectory_icon.svg</file>
+    <file>icons/addfile_icon.svg</file>
+    <file>icons/exit_icon.svg</file>
+    <file>icons/preferences_icon.svg</file>
+    <file>icons/create_icon.svg</file>
+    <file>icons/save_icon.svg</file>
+    <file>icons/load_playlist_icon.svg</file>
+    <file>icons/next_icon.svg</file>
+    <file>icons/pause_icon.svg</file>
+    <file>icons/play_icon.svg</file>
+    <file>icons/previous_icon.svg</file>
+    <file>icons/random_icon.svg</file>
+    <file>icons/stop_icon.svg</file>
+    <file>icons/rename_icon.svg</file>
+    <file>icons/delete_icon.svg</file>
+    <file>icons/right-angled-triangle.svg</file>
+    <file>icons/song_progress_play_icon.svg</file>
+  </qresource>
+</RCC>

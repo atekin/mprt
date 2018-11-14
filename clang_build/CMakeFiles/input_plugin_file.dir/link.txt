@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC  -DBOOST_LOG_DYN_LINK -std=c++17 -g  -shared -Wl,-soname,libinput_plugin_file.so -o libinput_plugin_file.so CMakeFiles/input_plugin_file.dir/core/decoder_plugins_manager.cpp.o CMakeFiles/input_plugin_file.dir/core/config.cpp.o CMakeFiles/input_plugin_file.dir/plugins/input_plugins/input_plugin_file.cpp.o -lboost_system -lboost_filesystem -lboost_log 

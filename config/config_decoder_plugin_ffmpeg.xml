@@ -1,0 +1,15 @@
+<mprt>
+	<decoder_plugin_ffmpeg>
+		<name>decoder_ffmpeg</name>
+		<enable>true</enable>
+		<file_extensions>
+			<file_extension>.*</file_extension>
+		</file_extensions>
+		<max_chunk_read_size>128</max_chunk_read_size>
+		<max_memory_size_per_file>4096</max_memory_size_per_file>
+		<ffmpeg_buffer_size>4</ffmpeg_buffer_size>
+		<ffmpeg_probe_size>64</ffmpeg_probe_size> <!-- should be less than max_chunk_read_size -->
+		<priority>1</priority>
+		<use_seek_file>false</use_seek_file>
+	</decoder_plugin_ffmpeg>
+</mprt>

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -fPIC  -DBOOST_LOG_DYN_LINK -std=c++17 -g  -shared -Wl,-soname,liboutput_plugin_alsa.so -o liboutput_plugin_alsa.so CMakeFiles/output_plugin_alsa.dir/core/config.cpp.o CMakeFiles/output_plugin_alsa.dir/plugins/output_plugins/output_plugin_alsa.cpp.o -lboost_system -lboost_filesystem -lboost_log -lasound 

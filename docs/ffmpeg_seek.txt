@@ -1,0 +1,23 @@
+I've run into a few issues with seeking in my usage of FFmpeg and, after several incarnations, I've found that this code works well...
+
+        int defaultStreamIndex = av_find_default_stream_index(m_pFormatContext);
+        int seekStreamIndex = (m_videoStreamIndex != -1)? m_videoStreamIndex : defaultStreamIndex;
+        __int64 seekTime = av_rescale_q(seekTimeDS, ds_time_base, m_pFormatContext->streams[seekStreamIndex]->time_base);
+        __int64 seekStreamDuration = m_pFormatContext->streams[seekStreamIndex]->duration;
+
+        int flags = AVSEEK_FLAG_BACKWARD;
+        if (seekTime > 0 && seekTime < seekStreamDuration)
+            flags |= AVSEEK_FLAG_ANY; // H.264 I frames don't always register as "key frames" in FFmpeg
+
+        int ret = av_seek_frame(m_pFormatContext, seekStreamIndex, seekTime, flags);
+        if (ret < 0)
+            ret = av_seek_frame(m_pFormatContext, seekStreamIndex, seekTime, AVSEEK_FLAG_ANY);
+
+My program uses DirectShow timecodes internally which is why I rescale the incoming timecode. (i.e. seekTimeDS) m_videoStreamIndex is the index of the video stream I store during the initial open. However I also allow audio only files in my program, so that check uses the video stream if it exists or the FFmpeg default stream if it doesn't.  You may not need either of those depending on how your code works. The main things are... You need to be careful not to use the AVSEEK_FLAG_ANY past the end of the file because that screws up some of the demuxers and causes future seeks to mess up. And the extra check at the very end is necessary because on some files the AVSEEK_FLAG_BACKWARDS does not work when seeking to 0, so you have to catch it and try again with AVSEEK_FLAG_ANY to make sure you actually end up at the start.
+
+This code works well on all the files I've tested, but we only use FFmpeg for MP4, MKV and FLV so you may still have trouble with other formats.
+
+Dan
+			
+			
+https://lists.ffmpeg.org/pipermail/libav-user/2011-September/000624.html

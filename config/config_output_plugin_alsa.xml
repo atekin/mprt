@@ -1,0 +1,24 @@
+<mprt>
+	<output_plugin_alsa>
+		<name>alsa_cambridge</name>
+		<enable>true</enable>
+		<preffered_device_name>plughw:0,0</preffered_device_name>
+		<mixer_device>hw:0</mixer_device>
+		<mixer_name>Master</mixer_name>
+		<mixer_index>0</mixer_index>
+		<use_db_vol>false</use_db_vol>
+		<max_free_timer_count>1</max_free_timer_count>
+		<!-- <use_buffer_size_or_duration_msec>size</use_buffer_size_or_duration_msec> -->
+		<use_buffer_size_or_duration_msec>duration</use_buffer_size_or_duration_msec>
+		<max_buffer>500</max_buffer>
+		<!-- <max_buffer>16384</max_buffer> -->
+		<max_period>100</max_period>
+		<!-- <max_period>1024</max_period> -->
+		<hardware_resampling>false</hardware_resampling>
+		<max_chunk_read_size>128</max_chunk_read_size>
+		<max_memory_size_per_file>4096</max_memory_size_per_file>
+		<next_diff_item_drain_time_msecs>100</next_diff_item_drain_time_msecs>
+		<use_poll>true</use_poll>
+		<use_drain>true</use_drain>
+	</output_plugin_alsa>
+</mprt>

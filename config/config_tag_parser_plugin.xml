@@ -1,0 +1,436 @@
+<mprt>
+	<tags_to_col>
+		<tags>
+			<tag>Rating</tag>
+		</tags>
+		<col>Rating</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Mrat</tag>
+			<tag>Bpm</tag>
+		</tags>
+		<col>Bpm</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>ENCODER</tag>
+			<tag>EncodedBy</tag>
+			<tag>Tenc</tag>
+			<tag>©too</tag>
+		</tags>
+		<col>Encoder</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>DisckNo</tag>
+			<tag>DISCNUMBER</tag>
+			<tag>DISC NUMBER</tag>
+			<tag>DISC NO</tag>
+		</tags>
+		<col>Disc No</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>DiscTotal</tag>
+			<tag>TotalDiscs</tag>
+		</tags>
+		<col>Disc Total</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>TRACKTOTAL</tag>
+			<tag>TRACKTOTALS</tag>
+			<tag>TOTALTRACK</tag>
+			<tag>TOTALTRACKS</tag>
+		</tags>
+		<col>Total Tracks</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>MusicBrainz Album Id</tag>
+			<tag>----:com.apple.iTunes:MusicBrainz Album Id</tag>
+		</tags>
+		<col>Album Id</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>COVERARTMIME</tag>
+		</tags>
+		<col>Cover Art Mime</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_0_ID3V2</tag>
+			<tag>PICT_0_FLAC</tag>
+		</tags>
+		<col>Pict Other</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_1_ID3V2</tag>
+			<tag>PICT_1_FLAC</tag>
+		</tags>
+		<col>Pict File Icon</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_2_ID3V2</tag>
+			<tag>PICT_2_FLAC</tag>
+		</tags>
+		<col>Pict Other File Icon</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_3_ID3V2</tag>
+			<tag>WM/Picture</tag>
+			<tag>COVER ART (FRONT)</tag>
+			<tag>covr_0</tag>
+			<tag>COVERART</tag>
+			<tag>PICT_0_XIPH</tag>
+			<tag>PICT_3_FLAC</tag>
+		</tags>
+		<col>Pict Cover (front)</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_4_ID3V2</tag>
+			<tag>PICT_4_FLAC</tag>
+		</tags>
+		<col>Pict Cover (back)</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_5_ID3V2</tag>
+			<tag>PICT_5_FLAC</tag>
+		</tags>
+		<col>Pict Leaflet page</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_6_ID3V2</tag>
+			<tag>PICT_6_FLAC</tag>
+		</tags>
+		<col>Pict Media</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_7_ID3V2</tag>
+			<tag>PICT_7_FLAC</tag>
+		</tags>
+		<col>Pict Lead</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_8_ID3V2</tag>
+			<tag>PICT_8_FLAC</tag>
+		</tags>
+		<col>Pict Artist</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_9_ID3V2</tag>
+			<tag>PICT_9_FLAC</tag>
+		</tags>
+		<col>Pict Conductor</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_10_ID3V2</tag>
+			<tag>PICT_10_FLAC</tag>
+		</tags>
+		<col>Pict Band</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_11_ID3V2</tag>
+			<tag>PICT_11_FLAC</tag>
+		</tags>
+		<col>Pict Composer</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_12_ID3V2</tag>
+			<tag>PICT_12_FLAC</tag>
+		</tags>
+		<col>Pict Lyricist</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_13_ID3V2</tag>
+			<tag>PICT_13_FLAC</tag>
+		</tags>
+		<col>Pict Recording Location</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_14_ID3V2</tag>
+			<tag>PICT_14_FLAC</tag>
+		</tags>
+		<col>Pict During Recording</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_15_ID3V2</tag>
+			<tag>PICT_15_FLAC</tag>
+		</tags>
+		<col>Pict During Performance</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_16_ID3V2</tag>
+			<tag>PICT_16_FLAC</tag>
+		</tags>
+		<col>Pict Video Screen Capture</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_17_ID3V2</tag>
+			<tag>PICT_17_FLAC</tag>
+		</tags>
+		<col>Pict A Bright Coloured Fish</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_18_ID3V2</tag>
+			<tag>PICT_18_FLAC</tag>
+		</tags>
+		<col>Pict Illustration</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_19_ID3V2</tag>
+			<tag>PICT_19_FLAC</tag>
+		</tags>
+		<col>Pict Band/Artist Logotype</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>PICT_20_ID3V2</tag>
+			<tag>PICT_20_FLAC</tag>
+		</tags>
+		<col>Pict Publisher/Studio logotype</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>AENC</tag>
+		</tags>
+		<col>Audio encryption</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Title</tag>
+			<tag>Tit2</tag>
+			<tag>\xa9nam</tag>
+		</tags>
+		<col>Title</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Subtitle</tag>
+		</tags>
+		<col>Subtitle</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Artist</tag>
+			<tag>\xa9ART</tag>
+		</tags>
+		<col>Artist</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>ALBUMARTIST</tag>
+			<tag>Tpe1</tag>
+			<tag>aART</tag>
+			<tag>©ART</tag>
+		</tags>
+		<col>Album Artist</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Album</tag>
+			<tag>Talb</tag>
+			<tag>\xa9alb</tag>
+			<tag>©alb</tag>
+			<tag>©nam</tag>
+		</tags>
+		<col>Album</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Tcon</tag>
+		</tags>
+		<col>Content Type</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Debut album</tag>
+		</tags>
+		<col>Debut Album</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Publisher</tag>
+			<tag>ORGANIZATION</tag>
+		</tags>
+		<col>Publisher</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Conductor</tag>
+		</tags>
+		<col>Conductor</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>MUSICBRAINZ_TRACKID</tag>
+			<tag>Track</tag>
+			<tag>UFID</tag>
+			<tag>TRACKNUMBER</tag>
+			<tag>----:com.apple.iTunes:MusicBrainz Track Id</tag>
+		</tags>
+		<col>Track No</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Composer</tag>
+			<tag>Tcom</tag>
+			<tag>\xa9wrt</tag>
+		</tags>
+		<col>Composer</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Comment</tag>
+			<tag>Comm</tag>
+			<tag>----:com.apple.iTunes:Encoding Params</tag>
+			<tag>----:com.apple.iTunes:iTunNORM</tag>
+			<tag>----:com.apple.iTunes:iTunSMPB</tag>
+			<tag>Comment:itunnorm</tag>
+		</tags>
+		<col>Comment</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Copyright</tag>
+			<tag>TCOP</tag>
+		</tags>
+		<col>Copyright</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Publicationright</tag>
+		</tags>
+		<col>Publication Right</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>File</tag>
+		</tags>
+		<col>File</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>EAN/UPC</tag>
+		</tags>
+		<col>EAN/UPC</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>ISBN</tag>
+		</tags>
+		<col>ISBN</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Catalog</tag>
+		</tags>
+		<col>Catalog</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>LC</tag>
+		</tags>
+		<col>Label Code</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Year</tag>
+			<tag>Date</tag>
+		</tags>
+		<col>Release Date</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Record Date</tag>
+		</tags>
+		<col>Record Date</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Record Location</tag>
+		</tags>
+		<col>Record Location(s)</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Genre</tag>
+		</tags>
+		<col>Genre(s)</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Media</tag>
+		</tags>
+		<col>Media</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Index</tag>
+		</tags>
+		<col>Index</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Related</tag>
+		</tags>
+		<col>Related</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>ISRC</tag>
+		</tags>
+		<col>ISRC</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Abstract</tag>
+		</tags>
+		<col>Abstract</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Language</tag>
+		</tags>
+		<col>Language</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Bibliography</tag>
+		</tags>
+		<col>Bibliography</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Introplay</tag>
+		</tags>
+		<col>Introplay</col>
+	</tags_to_col>
+	<tags_to_col>
+		<tags>
+			<tag>Dummy</tag>
+		</tags>
+		<col>_IGNORE_</col>
+	</tags_to_col>
+</mprt>

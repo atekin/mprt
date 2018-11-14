@@ -1,0 +1,12 @@
+<mprt>
+	<decoder_plugin_flac>
+		<name>decoder_plugin_flac</name>
+		<check_md5>false</check_md5>
+		<file_extensions>
+			<file_extension>flac?</file_extension>
+		</file_extensions>
+		<priority>100</priority>
+		<max_chunk_read_size>128</max_chunk_read_size>
+		<max_memory_size_per_file>8192</max_memory_size_per_file>
+	</decoder_plugin_flac>
+</mprt>

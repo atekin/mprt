@@ -1,0 +1,12 @@
+<mprt>
+	<output_plugin_dsound>
+		<name>direct_sound</name>
+		<enable>true</enable>
+		<preffered_device_name>Primary Sound Driver</preffered_device_name>
+		<max_free_timer_count>1</max_free_timer_count>
+		<max_buffer_duration_msec>200</max_buffer_duration_msec>
+		<max_chunk_read_size>128</max_chunk_read_size>
+		<use_memory_size_or_durationms>duration</use_memory_size_or_durationms>
+		<max_memory_size_per_file_duration>20000</max_memory_size_per_file_duration>
+	</output_plugin_dsound>
+</mprt>

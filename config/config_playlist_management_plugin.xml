@@ -1,0 +1,8 @@
+<mprt>
+	<playlist_management_plugin>
+		<name>playlist_management_plugin</name>
+		<enable>true</enable>
+		<max_free_timer_count>1</max_free_timer_count>
+		<min_wait_next_song_msecs>10000</min_wait_next_song_msecs>
+	</playlist_management_plugin>
+</mprt>

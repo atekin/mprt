@@ -1,0 +1,1 @@
+/usr/bin/clang++   -DBOOST_LOG_DYN_LINK -std=c++17 -g  -rdynamic CMakeFiles/mprt.dir/core/plugins_loader.cpp.o CMakeFiles/mprt.dir/core/decoder_plugins_manager.cpp.o CMakeFiles/mprt.dir/core/config.cpp.o CMakeFiles/mprt.dir/main.cpp.o  -o mprt -lboost_system -lboost_filesystem -lboost_log -ldl -ltag -pthread 

@@ -1,0 +1,9 @@
+<mprt>
+	<input_plugin_file>
+		<name>input_plugin_file</name>
+		<enable>true</enable>
+		<max_free_timer_count>1</max_free_timer_count>
+		<max_file_chunk_size>128</max_file_chunk_size>
+		<max_finish_files>5</max_finish_files>
+	</input_plugin_file>
+</mprt>

@@ -1,0 +1,24 @@
+<mprt>
+	<config>
+		<state_file>mprt.state</state_file>
+		<log_file>mprt.log</log_file>
+		<max_free_timer_count>10</max_free_timer_count>
+	</config>
+
+	<plugin_configs>
+		<decoder_plugins>
+			<max_free_timer_count>1</max_free_timer_count>
+		</decoder_plugins>
+		
+		<server_plugins>
+			<server_plugin_http>
+				<name>server_http</server_http>
+				<max_free_timer_count>1</max_free_timer_count>
+				<enable>true</true>
+				<bind_port>8080</bind_port>
+				<bind_ip>any</bind_ip>
+			</server_plugin_http>
+		</server_plugins>
+	</plugin_configs>
+	
+</mprt>
