@@ -1,5 +1,5 @@
 # mprt
-A Humble Portable Always Alpha Music Player
+A Humble Portable Always Alpha Portable Music Player
 
 Copyright © 2018 Ali Tekin ali.tekin@gmail.com
 
